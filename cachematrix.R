@@ -3,6 +3,13 @@
 
 ## Write a short comment describing this function
 
+## This function stores a list of functions to:
+## Set the value of a vector
+## Get the value of the vector
+## Set the value of the inverse
+## Get the value of the inverse
+## This assigns the inverse of an object in an environment that is different from the current environment
+
 makeCacheMatrix <- function(x = matrix()) {
 
   m <- NULL
@@ -20,6 +27,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+
+## This function returns the stored inverse of a matrix if it exsits, other wise it is computed and 
+## then stored into a different environment.
 
 cacheSolve <- function(x, ...) {
   
